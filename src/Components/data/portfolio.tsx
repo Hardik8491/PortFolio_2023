@@ -6,7 +6,7 @@ import PortImg5 from "../../../public/portImg1-5.3a00b56b76e147119732.jpg";
 import PortImg6 from "../../../public/postImg1-1.a41a126523bdcfd2daf1.jpg";
 import PortImg7 from "../../../public/portImg1-4.904a1484ffff558ddf93.jpg";
 
-export const portfolio = [
+export const portfolio:any = [
   {
     id: 1,
     portBox: "basis-full md:basis-[41.57%] px-[.9375rem]",

@@ -1,5 +1,5 @@
 import PatternImg2 from "../../assets/patternImg2.jpg";
-import { FaAngleDoubleRight } from "react-icons/fa";
+
 // import  profile  from "../data/profile"; 
 
 const ContactInfoProfiles = () => {

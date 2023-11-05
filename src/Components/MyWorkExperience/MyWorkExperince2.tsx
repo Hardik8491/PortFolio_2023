@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {  Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,6 +14,11 @@ import SectionBg from "../../../public/secBg2.03666bf5504b026ddd75.jpg";
 import { workExp } from "../data/workExp";
 
 const MyWorkExperience2 = () => {
+
+
+   
+
+
   return (
     <section className="workExpWrap py-[4.5rem] md:py-[5.5rem] lg:py-[6.5rem] xl:py-[7.5rem relative w-full">
     <span className="bg-accent absolute right-0 bottom-[-.75rem] h-6 w-1/2"></span>

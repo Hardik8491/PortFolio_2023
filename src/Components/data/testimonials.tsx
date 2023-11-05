@@ -8,7 +8,7 @@ export const testimonials = [
   {
     testiImg: TestiImg1,
     testiTitle: "Paul M. Matney",
-    testiDesc: "Lawyer",
+    testiDesi: "Lawyer",
     testiDesc:
       "We're really proud of the work we've done together. Whether it's a brand or a new online business, we jump in passionately with both feet.",
     testiRate: StarRate,

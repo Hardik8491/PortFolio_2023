@@ -1,4 +1,4 @@
-const SectionTitle3 = (props) => {
+const SectionTitle3 = (props:any) => {
   return (
     <div className="secTitleWrap flex justify-center text-center w-full mb-[2.1875rem]">
       <div className="secTitle max-w-[100%] md:max-w-[90%] lg:max-w-[55%]">

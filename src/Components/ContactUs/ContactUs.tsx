@@ -1,4 +1,4 @@
-import SectionTitleLight2 from "../SectionTitles/SectionTitle2";
+
 import SectionBg from "../../../public/secBg5.74d7502ab0306da82bb2.jpg";
 import ContactForm from "../ContanctForm/ContanctForm";
 import ContactInfo from "../ContactInfo/ContactInfo";

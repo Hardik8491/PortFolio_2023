@@ -1,4 +1,4 @@
-import Skills2 from "../Skills/Skills.tsx";
+
 
 const MyExperienceAndSkills = () => {
   return (

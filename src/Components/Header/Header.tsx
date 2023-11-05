@@ -9,18 +9,19 @@ import SubMenu from "./SideMenu/SubMenu";
 import ResponsiveHeader  from "../ResponsiveHeader/ResponsiveHeader";
 
 const Header = () => {
-  const refHeader = useRef();
+  const refHeader = useRef<HTMLInputElement>(null);;
+  
   const [sideMenu, setSideMenu] = useState(false);
   const showSideMenu = () => setSideMenu(!sideMenu);
 
   useLayoutEffect(() => {
     const header = document.getElementById("header");
-    let fixedTop = refHeader.current.offsetTop;
+    let fixedTop = refHeader?.current?.offsetTop;
     const stickyHeader = () => {
-      if (window.pageYOffset > fixedTop) {
-        header.classList.add("stickyHeader");
+      if (typeof fixedTop !== "undefined" && window.pageYOffset > fixedTop) {
+        header?.classList.add("stickyHeader");
       } else {
-        header.classList.remove("stickyHeader");
+        header?.classList.remove("stickyHeader");
       }
     };
     window.addEventListener("scroll", stickyHeader);

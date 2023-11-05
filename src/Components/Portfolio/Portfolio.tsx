@@ -19,7 +19,7 @@ const Portfolio = () => {
         ></SectionTitle>
         <div className="portList flex flex-wrap relative mx-[-.9375rem] mb-[-1.875rem]">
           {portfolio.map(
-            (item, index) =>
+            (item:any, index:any) =>
               index < 5 && (
                 <div className={item.portBox} key={index}>
                   <div className="portBox group mb-[1.875rem] before:transition-all before:ease-in-out before:duration-500 before:bg-blue-600 before:absolute before:opacity-0 before:hover:opacity-90 before:inset-[10%] before:hover:inset-0 relative overflow-hidden rounded-[10px] sm:rounded-[1.25rem] lg:rounded-[1.875rem] xl:rounded-[3.125rem] before:z-[1] text-center w-full">

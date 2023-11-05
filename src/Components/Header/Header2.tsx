@@ -6,13 +6,13 @@ import  SocialLinks2  from "../SocialLinks/SocialLinks2";
 import MenuLinks from "./MenuLink";
 
 const Header2 = () => {
-  const refHeader = useRef();
+  const refHeader = useRef<HTMLInputElement>(null);;
   useLayoutEffect(() => {
     const header = document.getElementById("header2");
-    let fixedTop = refHeader.current.offsetTop;
+    let fixedTop = refHeader?.current?.offsetTop;
     const stickyHeader = () => {
-      if (window.pageYOffset > fixedTop) {
-        header.classList.add(
+      if (typeof fixedTop !== "undefined" && window.pageYOffset > fixedTop) {
+        header?.classList.add(
           "stickyHeader",
           "bg-white/80",
           "drop-shadow-2xl",
@@ -20,7 +20,7 @@ const Header2 = () => {
           "backdrop-blur-sm"
         );
       } else {
-        header.classList.remove(
+        header?.classList.remove(
           "stickyHeader",
           "bg-white/80",
           "drop-shadow-2xl",

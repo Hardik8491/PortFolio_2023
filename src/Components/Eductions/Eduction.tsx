@@ -2,7 +2,7 @@ import { BsPlus } from "react-icons/bs";
 import { education } from "../data/education";
 import SectionTitleIcon  from "../SectionTitles/SectionTitleIcon";
 
-const Education = (props: any) => {
+const Education = () => {
   return (
     <div className="eduWrap relative w-full">
       <SectionTitleIcon title="Education"></SectionTitleIcon>

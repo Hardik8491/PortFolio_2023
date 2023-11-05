@@ -1,4 +1,4 @@
-import React from 'react'
+
 import{ social}  from '../data/social'
 
 const SocialLinks = () => {

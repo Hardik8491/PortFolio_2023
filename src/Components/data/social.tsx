@@ -1,7 +1,7 @@
-import React from 'react'
+
 
 import { SocialIcon } from 'react-social-icons';
-import {BsFacebook} from "react-icons/bs"
+
 export const social=[
 
   { 

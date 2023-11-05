@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import { bottomMenu } from "../data/bottom-links";
 import SectionBg from "../../../public/secBg2.03666bf5504b026ddd75.jpg";
 import {
   BsLinkedin,
@@ -9,7 +7,7 @@ import {
 } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 const BottomBar = () => {
-  const USER="Hardik Bhammar"
+  const USER = "Hardik Bhammar";
   return (
     <div className="bottomBarWrap relative w-full py-8 text-gray-400 mt-4 cursor-pointer  ">
       <div
@@ -27,12 +25,11 @@ const BottomBar = () => {
               HDK.IO
             </h2>
             <p className=" md:max-w[150px] lg:max-w-[250px] p-0 xl:flex xl:max-w-xl hidden ">
-
-              Greetings! I'm {USER}, a passionate web developer with a love
-              for crafting digital experiences that leave a lasting impression.
-              With a background in web development and a keen eye for design,
-              I'm dedicated to transforming ideas into interactive,
-              user-friendly websites.
+              Greetings! I'm {USER}, a passionate web developer with a love for
+              crafting digital experiences that leave a lasting impression. With
+              a background in web development and a keen eye for design, I'm
+              dedicated to transforming ideas into interactive, user-friendly
+              websites.
             </p>
             {/* <h2 className="text-lg">HDK.IO</h2> */}
             <p className="max-w-xs p-0 sm:hidden xl:flex ">
@@ -47,14 +44,30 @@ const BottomBar = () => {
               Navigation
             </h2>
             <ul>
-               <li><a href="/">Home</a></li>
-               <li><a href="/blog">Blog</a></li>
-               <li><a href="/portfolio">PortFolio</a></li>
-               <li><a href="/page">Page</a></li>
-               <li><a href="/plans">Plans</a></li>
-               <li><a href="/404">Error</a></li>
-               <li><a href="/service">Service</a></li>
-               <li><a href="/contact">Contact</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+              <li>
+                <a href="/portfolio">PortFolio</a>
+              </li>
+              <li>
+                <a href="/page">Page</a>
+              </li>
+              <li>
+                <a href="/plans">Plans</a>
+              </li>
+              <li>
+                <a href="/404">Error</a>
+              </li>
+              <li>
+                <a href="/service">Service</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
             </ul>
           </div>
           <div className="thrid">

@@ -1,10 +1,10 @@
-import { BsPlus } from "react-icons/bs";
+
 import SectionTitleLight from "../SectionTitles/SectionTitleLight";
 import PatternImg2 from "../../assets/patternImg2.jpg";
 import SectionBg from "../../../public/secBg2.03666bf5504b026ddd75.jpg";
 import { workExp } from "../data/workExp";
 
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 

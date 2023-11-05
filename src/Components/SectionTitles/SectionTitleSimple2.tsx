@@ -1,4 +1,4 @@
-const SectionTitleSimple2 = (props) => {
+const SectionTitleSimple2 = (props:any) => {
   return (
     <div className="secTitleSimpleWrap gap-3 flex text-center justify-center w-full mb-[1.875rem]">
       <h3 className="text-accent2 font-Poppins font-semibold text-[1.75rem] md:text-[2.25rem] max-w-full md:max-w-[80%] leading-[1.3]">

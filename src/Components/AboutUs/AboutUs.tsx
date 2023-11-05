@@ -7,7 +7,7 @@ import AboutImg from "../../../public/about.jpg";
 // // import  GoPrimitiveDot  from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
 
-const AboutUs = (props: any) => {
+const AboutUs = () => {
   return (
     <section className="aboutUsWrap py-[4.5rem] md:py-[5.5rem] lg:py-[6.5rem] xl:py-[7.5rem] relative w-full">
       <div

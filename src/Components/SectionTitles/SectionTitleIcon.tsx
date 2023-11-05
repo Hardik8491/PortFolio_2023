@@ -5,7 +5,7 @@ import {
   ReactPortal,
 } from "react";
 // import { ReactComponent as EducationIcon } from "../../lib/icons/Mortarboard.svg";
-import { IoSchoolOutline } from "react-icons/io5";
+
 const SectionTitleIcon = (props: {
   title:
     | string

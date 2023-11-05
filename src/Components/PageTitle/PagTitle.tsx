@@ -2,9 +2,13 @@ import { FaHome } from "react-icons/fa";
 import { Link, To } from "react-router-dom";
 import PatternImg2 from "../../../public/patternImg2.8de82b580f10424e5d2f.jpg";
 import SectionBg from "../../../public/secBg2.03666bf5504b026ddd75.jpg";
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from "react";
+import {  ReactNode } from "react";
 
-const PageTitle = (props: { title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; homeURL: To; hometitle: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | null | undefined; currentPage: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => {
+const PageTitle = (props: {
+  homeURL: To;
+  hometitle: string | undefined;
+  currentPage: ReactNode; title:any; 
+}) => {
   return (
     <section className="pageTitleWrap py-[4.5rem] sm:py-[4.5rem] md:py-[4.5rem] lg:pt-[7.5rem] lg:pb-0 relative w-full">
       <div

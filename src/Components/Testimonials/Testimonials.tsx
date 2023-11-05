@@ -183,7 +183,7 @@ function PrevArrow(props: { className: any; style: any; onClick: any; }) {
   );
 }
 
-const Testimonials = (props: any) => {
+const Testimonials = () => {
   const settings = {
     dots: false,
     arrows: true,

@@ -1,4 +1,4 @@
-const SectionTitleLightFull = (props) => {
+const SectionTitleLightFull = (props:any) => {
   return (
     <div className="secTitleWrap relative flex w-full mb-[2.1875rem]">
       <div className="secTitle">
